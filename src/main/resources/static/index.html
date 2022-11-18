@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Chat Room</title>
+
+<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="style.css" />
+
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/sockjs-client/sockjs.min.js"></script>
+<script src="/webjars/stomp-websocket/stomp.min.js"></script>
+<script src="script.js"></script>
+
+</head>
+<body>
+	<div id="name-form" class="bg-primary d-flex align-items-center">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 offset-md-4">
+					<form action="">
+						<div class="input-group">
+							<input 
+								type="text" 
+								name="name"
+								id="name"
+								class="form-control"
+								placeholder="Enter Your Name"
+								
+								/>
+								
+						<div class="input-group-append">
+							<button class="btn btn-dark" id="login">Enter</button>
+						</div>
+								
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
